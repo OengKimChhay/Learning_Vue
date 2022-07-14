@@ -11,7 +11,8 @@ export default{
   mixins:[myMixin],
   props:{
     user:{
-      type:Object
+      type:Object,
+      required:true
     }
   }
 }

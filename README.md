@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# Learning_Vue
+=======
 # vue_axios
 
 ## Project setup
@@ -22,3 +25,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+>>>>>>> 6e400082b1e023e4fcd7ba02aa633ce6244c0325

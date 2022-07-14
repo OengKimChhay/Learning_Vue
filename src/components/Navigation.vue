@@ -1,6 +1,7 @@
 <template>
   <div>
     <ul id="menu">
+      <li><router-link :to="{ name:'movie-list'}">Movie</router-link></li>
       <li><router-link :to="{ name:'user-list'}">User List</router-link></li>
       <li><router-link to="/show" style="margin-left:10px;">User Show</router-link></li>
       <li><router-link :to="{ name:'signUp' }" style="margin-left:10px;">Sign Up</router-link></li>

@@ -5,12 +5,18 @@ import User from '../views/User.vue';
 import NotFound from '@/components/NotFound.vue';
 import Login from '@/views/Login.vue';
 import SignUp from '@/views/SignUp.vue';
+import Movie from '@/views/Movie.vue';
 
 Vue.use(VueRouter)
 
 const routes = [
   { 
-    path: '/', redirect: { name: 'user-list' } 
+    path: '/', redirect: { name: 'movie-list' } 
+  },
+  {
+    path: '/movie-list',
+    name: 'movie-list',
+    component: Movie
   },
   {
     path: '/user-list',

@@ -19,10 +19,12 @@ export default {
   },
   computed:{
     ...mapGetters('user',['users']),
+  },
+  methods:{
     ...mapActions('user',['getUsers'])
   },
   created(){
-    this.getUsers;
+    this.getUsers();
     console.log(this.users);
   }
 }
